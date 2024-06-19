@@ -25,6 +25,7 @@ try:
     except:
         print("Something")
 
+
     var2 = "2"
     varbool = type(var2) is int
     print(varbool)
@@ -38,10 +39,27 @@ try:
     #elif x or y:
         #print("Mindenstens eines ist wahr")
     
+# 01010000
+# 00000101
+# 00000110
+# 00010001
+
+
     if x | y:
         print(x | y)
     if x or y:
         print("Fall 2")
+    
+    if x & y:
+        print(x | y)
+    if x and y:
+        print("Fall 3")
+
+    a = 17
+    x = x<<2
+    a = a>>2
+
+    print("A shift: ", a)
     
 
 
